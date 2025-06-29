@@ -7,7 +7,7 @@ html {
 
 body {
     margin: 0;
-    background-color: #1c1818;
+    background-color: #100E0F;
 }
 
 header {
@@ -26,25 +26,40 @@ header section {
     margin: 0;
 }
 
+a {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    text-decoration-thickness: 0.09rem;
+    text-decoration-color: rgba(0, 0, 0, 0);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    text-decoration-color: #D39E5A;
+}
+
 header section a {
     color: #ffffff;
     margin: 0 1rem;
 }
 
-main section {
+main .sec1 {
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-main section img {
+main .sec1 img {
     width: 100%;
 }
 
-main section h1 {
-    position: absolute;
+h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xxx-large;
+}
+
+main .sec1 h1 {
+    position: absolute;
 }
 
 .t1 {
@@ -56,7 +71,7 @@ main section h1 {
 }
 
 main button {
-    background-color: yellow;
+    background-color: #D39E5A;
     display: block;
     margin: 0 auto;
     padding: 0.4rem 1rem;
@@ -66,5 +81,65 @@ main button {
     font-family: sans-serif;
     font-size: medium;
     color: #000000;
+    border: 0.2rem solid rgba(0, 0, 0, 0);
+    transition: all 0.2s ease;
 }
-/*Hay que mejorar los colores*/
+
+main button:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+main section div button {
+    float: left;
+}
+
+main .sec2 {
+    position: relative;
+    display: flex;
+    padding: 6rem 0 0;
+    align-items: center;
+}
+
+main .sec2 img {
+    width: 50%;
+    height: fit-content;
+}
+
+main .sec2 div div {
+    display: flex;
+    align-items: center;
+}
+
+main .sec2 div div .linea {
+    background-color: #ffffff;
+    width: 7vw;
+    height: 0.11rem;
+    float: left;
+    margin-right: 1rem;
+}
+
+main .sec3 {
+    position: relative;
+    display: flex;
+    padding: 4rem 0 0;
+    align-items: center;
+}
+
+main .sec3 .divText {
+    width: 60%;
+    padding: 0 0 0 8vw;
+}
+
+main .sec3 .divImg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding-left: 3vw;
+    padding-right: 6vw;
+}
+
+main .sec3 div img {
+    width: 100%;
+    height: fit-content;
+}
