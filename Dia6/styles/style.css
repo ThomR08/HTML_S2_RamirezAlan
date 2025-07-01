@@ -64,10 +64,12 @@ main .sec1 h1 {
 
 .t1 {
     top: 15%;
+    font-size: clamp(0.5vw, 3vw, 4vw);
 }
 
 .t2 {
     bottom: 6%;
+    font-size: clamp(0.5vw, 3vw, 4vw);
 }
 
 main button {
@@ -161,7 +163,7 @@ main .title {
     align-items: center;
     border: solid 0.12rem #D39E5A;
     border-radius: 0.2rem;
-    margin: 4vw;
+    margin: 2rem 4vw 4vw 4vw;
     padding: 2vw 6vw;
     justify-content: center;
 }
