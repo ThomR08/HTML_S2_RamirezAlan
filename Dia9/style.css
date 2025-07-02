@@ -1,0 +1,9 @@
+body {
+    margin: 0 auto;
+    background-color: black;
+    text-align: center;
+}
+
+video, img {
+    width: 40%;
+}
