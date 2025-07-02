@@ -200,6 +200,7 @@ main .linea {
 
 main .us {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 6vw 0;
